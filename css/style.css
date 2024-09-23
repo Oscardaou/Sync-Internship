@@ -1,0 +1,102 @@
+body{
+    
+    background-image: url('../img/login-bg.jpeg');
+    background-size: auto; 
+    background-repeat: no-repeat; 
+    background-position: center;
+}
+
+.home a {
+    text-decoration: none;
+    font-weight: bold;
+    padding-right: 10%;
+    top: 10px; 
+    right: 10px; 
+    color: #b30000;
+    display: flex;
+    gap: 10px;
+    justify-content: flex-end; 
+    flex-direction: row;
+    position: relative;
+}
+
+.home a:hover {
+    color: #007bff; /* Color of the link on hover */
+    text-decoration: underline; /* Optional: underline on hover */
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    grid-gap: 20px;
+    width: 100%;
+    height: 350px;
+    margin-top: 8%;
+}
+
+/*logo and text section*/
+.logo-section {
+    padding-top: 20%;
+    text-align: center;
+}
+
+.logo {
+    max-width: 100%;
+    height: auto;
+}
+
+.description {
+    margin-top: 10px;
+    font-size: 18px;
+    color: white;
+}
+/*login form */
+.login-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 80%;
+    border-radius: 2%;
+    background-color: white;
+}
+
+.login-form {
+    width: 100%;
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.login-form label {
+    margin-bottom: 5px;
+    font-size: 14px;
+    padding-bottom: 20px;
+}
+
+.login-form input {
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.login-form button {
+    padding: 10px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.login-form button:hover {
+    background-color: #b30000;
+}
+
+main{
+    margin-top: 5%;
+}

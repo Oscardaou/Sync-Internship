@@ -1,0 +1,28 @@
+body{
+    
+    background-image: url('../img/login-bg.jpeg');
+    background-size: auto; 
+    background-repeat: no-repeat; 
+    background-position: center;
+}
+
+header {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 10px 20px; 
+    background-color: #91a4af3d;
+}
+
+header a {
+    text-decoration: none; 
+    color: #b30000; 
+    font-weight: bold; 
+    padding: 5px 10px; 
+    background-color: #eaeaea; 
+    border-radius: 4px; 
+}
+
+header a:hover {
+    background-color: #d1d1d1; 
+}
